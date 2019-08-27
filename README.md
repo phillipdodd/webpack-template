@@ -36,6 +36,4 @@ module.exports = {
 };
 ```
 
-* Edit your **package.json** file to include ```"build": "webpack"``` as one of its scripts. This will allow you to easily build the project using ```npm build```. 
-
-* Run ```npm install clean-webpack-plugin --save-dev``` 
+* Edit your **package.json** file to include ```"build": "webpack"``` as one of its scripts. This will allow you to easily build the project using the command ```npm run-script build```. 
